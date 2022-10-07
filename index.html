@@ -7,26 +7,26 @@
   </head>
   <body>
     <main>
-      <form method="post" action="#null" autocomplete="on" id="form">
+      <form id="form" method="post" action="#null" autocomplete="on">
         <ol>
           <li>
             <label for="">First Name</label>
-            <input type="text" name="First-Name" autocomplete="given-name" form="form" required>
+            <input id="fname" type="text" name="First-Name" autocomplete="given-name" form="form" required>
           </li>
           <li>
             <label for="">Last Name</label>
-            <input type="text" name="Last-Name" autocomplete="given-name" form="form">
+            <input id="lname" type="text" name="Last-Name" autocomplete="given-name" form="form">
           </li>
           <li>
             <label for="email">Email</label>
-            <input type="email" name="email" pattern="^.+@.+$" autocomplete="email" form="form" required>
+            <input id="email" type="email" name="email" pattern="^.+@.+$" autocomplete="email" form="form" required>
           </li>
           <li>
             <label for="">Birthdate</label>
-            <input type="date" name="birthdate" autocomplete="bday" form="form" required>
+            <input id="birthdate" type="date" name="birthdate" autocomplete="bday" form="form" required>
           </li>
           <li>
-            <input type="submit" name="submit" form="form">
+            <input id="submit" type="submit" name="submit" form="form">
           </li>
         </ol>
       </form>
