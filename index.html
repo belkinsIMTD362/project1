@@ -13,7 +13,7 @@
       <h1>
         Sign up for our newsletter
       </h1>
-      <form id="form" method="post" action="#null" autocomplete="on">
+      <form id="form" method="dialog" action="#null" autocomplete="on">
         <ol>
           <li>
             <label for="fname">First Name</label>
@@ -31,8 +31,8 @@
             <label for="birthdate">Birthdate</label>
             <input id="birthdate" type="date" name="birthdate" autocomplete="bday" form="form" required>
           </li>
-          <li>
-            <input id="submit" type="submit" name="submit" form="form">
+          <li id="input-submit">
+            <input value="Subscribe" id="submit" type="submit" name="submit" form="form">
           </li>
         </ol>
       </form>
