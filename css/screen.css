@@ -34,6 +34,12 @@ html {
     text-align: center;
   }
 
+  form {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+  }
+
   .hasjs #input-submit input.active {
     border: 2px solid black;
   }
