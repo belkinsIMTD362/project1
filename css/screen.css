@@ -43,6 +43,7 @@ html {
   }
 
   .hasjs #input-submit input.active {
+    box-sizing: border-box;
     border: 2px solid black;
   }
   
@@ -50,7 +51,8 @@ html {
   
     form {
       float: left;
-      width: 50%;
+      width: 46%;
+      margin: 4%;
     }
   }
   
