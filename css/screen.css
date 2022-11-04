@@ -67,6 +67,11 @@ html {
     }
 
     .grid-2 {
+
+      background-image: url(../assests/space.jpg);
+      background-size: cover;
+      background-position: right;
+      background-repeat: no-repeat;
       grid-column: 2;
       grid-row: 1/3;
     }
