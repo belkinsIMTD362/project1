@@ -17,10 +17,20 @@ html {
   
   h1 {
     font-family: 'Titillium Web', serif;
-    color: white;
+    font-weight: 700;
+    color: rgb(255, 127, 95);
     font-size: 3.375em;
     text-align: center;
     margin: 1rem 0;
+  }
+
+  h2 {
+    font-family: 'Titillium Web', serif;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5em;
+    margin: 1rem 10% 1rem 10%;
+    text-align: center;
   }
   
   input {
